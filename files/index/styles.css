@@ -2188,16 +2188,25 @@
   background-image:url('../../resources/images/transparent.gif');
 }
 #u76 {
+  border-width:0px;
   position:absolute;
-  left:0px;
-  top:0px;
-}
-#u76_state0 {
-  position:relative;
   left:0px;
   top:0px;
   width:1180px;
   height:100px;
+  overflow:hidden;
+}
+#u76_state0 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1180px;
+  height:100px;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
   background-image:none;
 }
 #u76_state0_content {
