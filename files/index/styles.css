@@ -2188,25 +2188,16 @@
   background-image:url('../../resources/images/transparent.gif');
 }
 #u76 {
-  border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:1180px;
-  height:101px;
-  overflow:hidden;
 }
 #u76_state0 {
-  border-width:0px;
-  position:absolute;
+  position:relative;
   left:0px;
   top:0px;
-  width:1180px;
-  height:101px;
-  -ms-overflow-x:hidden;
-  overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
+  width:10px;
+  height:1px;
   background-image:none;
 }
 #u76_state0_content {
@@ -2249,7 +2240,8 @@
 }
 #u78 {
   position:fixed;
-  left:0px;
+  left:50%;
+  margin-left:-5px;
   top:0px;
   width:10px;
   height:101px;
